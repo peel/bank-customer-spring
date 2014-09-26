@@ -3,18 +3,18 @@ package demo;
 public class Customer {
 
     private final long id;
-    private final String content;
+    private final String name;
 
-    public Customer(long id, String content) {
+    public Customer(long id, String name) {
         this.id = id;
-        this.content = content;
+        this.name = name;
     }
 
     public long getId() {
         return id;
     }
 
-    public String getContent() {
-        return content;
+    public String getName() {
+        return name;
     }
 }
